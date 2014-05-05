@@ -1,0 +1,22 @@
+﻿Build started 5/2/2014 9:48:06 PM.
+     1>Project "C:\Users\Ananth\Dropbox\Projects\SudokuSolver\SudokuSolver\SudokuSolver.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\opencv\build\include /I"C:\Tesseract-OCR\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D __MSW32__ /D USE_STD_NAMESPACE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\SudokuSolver.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt SudokuSolver.cpp
+         SudokuSolver.cpp
+     1>c:\users\ananth\dropbox\projects\sudokusolver\sudokusolver\PreProcess.h(46): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ananth\dropbox\projects\sudokusolver\sudokusolver\PreProcess.h(49): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ananth\dropbox\projects\sudokusolver\sudokusolver\PreProcess.h(50): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\tesseract-ocr\include\leptonica\environ.h(277): warning C4005: 'snprintf' : macro redefinition
+                 c:\tesseract-ocr\include\tesseract\platform.h(33) : see previous definition of 'snprintf'
+     1>c:\tesseract-ocr\include\leptonica\pix.h(169): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>c:\tesseract-ocr\include\leptonica\pix.h(171): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ananth\Dropbox\Projects\SudokuSolver\Release\SudokuSolver.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\opencv\build\x64\vc11\lib /LIBPATH:"C:\Tesseract-OCR\lib" liblept168.lib "liblept168-static-mtdll.lib" "libtesseract302-static.lib" libtesseract302.lib opencv_core247.lib opencv_imgproc247.lib opencv_highgui247.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ananth\Dropbox\Projects\SudokuSolver\Release\SudokuSolver.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ananth\Dropbox\Projects\SudokuSolver\Release\SudokuSolver.lib" /MACHINE:X86 /SAFESEH Release\tests1.obj
+         Release\stdafx.obj
+         Release\SudokuSolver.obj
+     1>opencv_highgui247.lib(opencv_highgui247.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'
+     1>Done Building Project "C:\Users\Ananth\Dropbox\Projects\SudokuSolver\SudokuSolver\SudokuSolver.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.42

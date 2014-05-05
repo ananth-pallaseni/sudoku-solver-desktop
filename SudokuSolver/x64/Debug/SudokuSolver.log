@@ -1,0 +1,20 @@
+﻿Build started 4/26/2014 5:11:03 PM.
+     1>Project "C:\Users\Ananth\Dropbox\Projects\SudokuSolver\SudokuSolver\SudokuSolver.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv\build\include /I"C:\Tesseract-OCR\include" /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\SudokuSolver.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt SudokuSolver.cpp
+         SudokuSolver.cpp
+     1>c:\users\ananth\dropbox\projects\sudokusolver\sudokusolver\PreProcess.h(49): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ananth\dropbox\projects\sudokusolver\sudokusolver\PreProcess.h(50): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\tesseract-ocr\include\tesseract\helpers.h(33): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ananth\Dropbox\Projects\SudokuSolver\x64\Debug\SudokuSolver.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x64\vc11\lib /LIBPATH:"C:\Tesseract-OCR\lib" liblept168d.lib libtesseract302d.lib opencv_core247d.lib opencv_imgproc247d.lib opencv_highgui247d.lib opencv_ml247d.lib opencv_video247d.lib opencv_features2d247d.lib opencv_calib3d247d.lib opencv_objdetect247d.lib opencv_contrib247d.lib opencv_legacy247d.lib opencv_flann247d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ananth\Dropbox\Projects\SudokuSolver\x64\Debug\SudokuSolver.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ananth\Dropbox\Projects\SudokuSolver\x64\Debug\SudokuSolver.lib" /MACHINE:X64 x64\Debug\tests1.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\SudokuSolver.obj
+     1>SudokuSolver.obj : error LNK2019: unresolved external symbol "public: __cdecl tesseract::TessBaseAPI::TessBaseAPI(void)" (??0TessBaseAPI@tesseract@@QEAA@XZ) referenced in function main
+     1>SudokuSolver.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl tesseract::TessBaseAPI::~TessBaseAPI(void)" (??1TessBaseAPI@tesseract@@UEAA@XZ) referenced in function main
+     1>C:\Users\Ananth\Dropbox\Projects\SudokuSolver\x64\Debug\SudokuSolver.exe : fatal error LNK1120: 2 unresolved externals
+     1>Done Building Project "C:\Users\Ananth\Dropbox\Projects\SudokuSolver\SudokuSolver\SudokuSolver.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.31
